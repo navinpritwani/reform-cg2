@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 6 Copy</title>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Event-Live---networking" transform="translate(-261.000000, -147.000000)">
+            <g id="Group-10" transform="translate(105.000000, 134.000000)">
+                <g id="Group-7" transform="translate(32.000000, 15.000000)">
+                    <g id="Group-6-Copy" transform="translate(126.000000, 0.000000)">
+                        <path d="M46.261742,14.4787937 C61.4662259,25.4172292 56.559871,34.4544389 49.2109839,44.6690034 C41.8620968,54.8835679 34.8533227,62.4075679 19.649371,51.4691324 C10.6717743,45.0101808 4.3810162,38.4314711 16.7001291,21.2789228 C24.0405001,11.0579711 30.7267259,3.30190663 46.261742,14.4787937" id="Fill-1" stroke="#1781F1" stroke-width="2" stroke-dasharray="4" transform="translate(33.020227, 32.920292) rotate(55.000000) translate(-33.020227, -32.920292) "></path>
+                        <text id="add---material" font-family="material" font-size="20" font-weight="normal" fill="#1781F1">
+                            <tspan x="23" y="40"></tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

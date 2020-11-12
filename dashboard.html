@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Starter Template for Bootstrap</title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/font/stylesheet.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="starter-template.css" rel="stylesheet">
+    </head>
+    <body class="style-bg">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="starter-template.html"><img src="assets/logo.svg"/></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav" style="position: relative;
+
+/* left: 0 */
+/* right: 0 */
+display: flex; margin-left: auto; margin-top: auto; margin-bottom: auto;">
+                        <li class="nav-item active">
+                            <a class="nav-link text-dark" href="#">About Us <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="videos.html">Videos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Our Company</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle profile-nav" data-toggle="dropdown" href="#" role="button">N </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">View Profile</a>
+                                <a class="dropdown-item" href="#">Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="break"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3">
+                    <div class="profile-card theme-card">
+                        <img src="assets/imgs/speaker.png" class="float-left mr-4"/>
+                        <h3 class="text-left">Andrew Chen</h3>
+                        <p class="text-left">navin@gmail.com <br>
+    +91-99 999 99999</p>
+                        <a href=""><img src="assets/imgs/edit-icon.svg" class="pr-2">Edit Profile</a>
+                        <a href="" class="float-right"><img src="assets/imgs/logout-icon.svg" class="pr-2">Logout</a>
+                    </div>
+                    <div class="theme-card tabs-card mt-3">
+                        <nav class="nav flex-column">
+                            <a class="nav-link active cursor-pointer" onclick="showVideos()"><img src="assets/imgs/right-icon.svg">Videos</a>
+                            <a class="nav-link" href="#"><img src="assets/imgs/right-icon.svg">Events</a>
+                            <a class="nav-link cursor-pointer" onclick="showSubscription()"><img src="assets/imgs/right-icon.svg">Subscription</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-xl-9">
+                    <div id="video-list" role="tabpanel">
+                        <div class="row">
+                            <h3 class="theme-h3">All Videos</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="theme-card bg-white video-card">
+                                    <div class="overlay"></div>
+                                    <img src="assets/video-thumb.png"/>
+                                    <h3>All about Deep tech</h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="theme-card bg-white video-card">
+                                    <div class="overlay"></div>
+                                    <img src="assets/video-thumb.png"/>
+                                    <h3>All about Deep tech</h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="theme-card bg-white video-card">
+                                    <div class="overlay"></div>
+                                    <img src="assets/video-thumb.png"/>
+                                    <h3>All about Deep tech</h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="theme-card bg-white video-card">
+                                    <div class="overlay"></div>
+                                    <img src="assets/video-thumb.png"/>
+                                    <h3>All about Deep tech</h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="theme-card bg-white video-card">
+                                    <div class="overlay"></div>
+                                    <img src="assets/video-thumb.png"/>
+                                    <h3>All about Deep tech</h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="theme-card bg-white video-card">
+                                    <div class="overlay"></div>
+                                    <img src="assets/video-thumb.png"/>
+                                    <h3>All about Deep tech</h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="theme-card bg-white video-card">
+                                    <div class="overlay"></div>
+                                    <img src="assets/video-thumb.png"/>
+                                    <h3>All about Deep tech</h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="theme-card bg-white video-card">
+                                    <div class="overlay"></div>
+                                    <img src="assets/video-thumb.png"/>
+                                    <h3>All about Deep tech</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="subscription-list" role="tabpanel" class="hide">
+                        <section>
+                            <h3 class="theme-h3">Subscription</h3>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-3 col-xl-4">
+                                        <div class="card theme-card bg-white">
+                                            <div class="card-body">
+                                                <div class="plan-name">
+                                                    Lite 
+</div>
+                                                <div class="plan-description">
+                                                    <div class="plan-price month">
+                                                        $19
+                                                        <sub> / month</sub>
+                                                    </div>
+                                                    <p>Great for personal users and the self-employed who are considering analytics and need branding.</p>
+                                                </div>
+                                                <div class="plan-description specs">
+                                                    1,000 Branded Links
+                                                    <br> 1+ User Seats
+                                                    <br> 1+ Custom Domains 
+                                                </div>
+                                                <div class="plan-cta">
+                                                    <p><a class="button" href="#" data-open="get-pro-modal" aria-controls="get-pro-modal" aria-haspopup="true" tabindex="0">Get Started</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 col-xl-4">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="plan-name">
+                                                    Basic 
+</div>
+                                                <div class="plan-description">
+                                                    <div class="plan-price month">
+                                                        $29
+                                                        <sub> / month</sub>
+                                                    </div>
+                                                    <p>Great for personal users and the self-employed who are considering analytics and need branding.</p>
+                                                </div>
+                                                <div class="plan-description specs">
+                                                    5,000 Branded Links
+                                                    <br> 3+ User Seats
+                                                    <br> 5+ Custom Domains 
+                                                </div>
+                                                <div class="plan-cta">
+                                                    <p><a class="button" href="#" data-open="get-pro-modal" aria-controls="get-pro-modal" aria-haspopup="true" tabindex="0">Get Started</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 col-xl-4">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="plan-name">
+                                                    Pro 
+</div>
+                                                <div class="plan-description">
+                                                    <div class="plan-price month">
+                                                        $99
+                                                        <sub> / month</sub>
+                                                    </div>
+                                                    <p>Great for personal users and the self-employed who are considering analytics and need branding.</p>
+                                                </div>
+                                                <div class="plan-description specs">
+                                                    20,000 Branded Links
+                                                    <br> 10+ User Seats
+                                                    <br> 10+ Custom Domains 
+                                                </div>
+                                                <div class="plan-cta">
+                                                    <p><a class="button" href="#" data-open="get-pro-modal" aria-controls="get-pro-modal" aria-haspopup="true" tabindex="0">Get Started</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ./container-->
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="break"></div>
+        <div class="mail-subscribe">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div>
+                            <img src="assets/mail.svg" class="float-left"/>
+                            <div class="text">
+                                <h2><span>Join our newsletter</span> </h2>
+                                <p class="theme-p">Lorem ipsum dolor sit amet, consectetur adi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="form-i">
+                            <input placeholder="Enter email address">
+                            <button type="submit" class="btn theme-btn">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <img src="assets/logo.svg"/>
+                        <ul class="sm-logo"> 
+                            <li>
+                                <a href=""><img src="assets/facebook-square%20-%20FontAwesome.svg"/></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="assets/twitter-square%20-%20FontAwesome.svg"/></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="assets/linkedin-square%20-%20FontAwesome.svg"/></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="assets/youtube-square%20-%20FontAwesome.svg"/></a>
+                            </li>                             
+                        </ul>
+                    </div>
+                    <div class="footer-links col-xl-3">
+                        <h3><p>Quick Links</p></h3>
+                        <ul> 
+                            <li>
+                                <a href="">About Us</a>
+                            </li>
+                            <li>
+                                <a href="">Our Company</a>
+                            </li>
+                            <li>
+                                <a href="">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="">Terms & Policy</a>
+                            </li>                             
+                        </ul>
+                    </div>
+                    <div class="footer-links col-xl-3">
+                        <h3><p style="opacity: 0;">1</p></h3>
+                        <ul> 
+                            <li>
+                                <a href="">Blogs</a>
+                            </li>
+                            <li>
+                                <a href="">Events</a>
+                            </li>
+                            <li>
+                                <a href="">Support</a>
+                            </li>                             
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 footer-links"> 
+                        <h3><p>Contact Us</p></h3> 
+                        <ul> 
+                            <li>
+                                <a href="">102YR, Opposite to Axis Bank, Viman Nagar, Pune – 411014, Maharashtra, India</a>
+                            </li>
+                            <li>
+                                <a href="">+91-914-810-1233</a>
+                            </li>
+                            <li>
+                                <a href="">business@conferglobal.com</a>
+                            </li>                             
+                        </ul>
+                    </div>
+                    <div class="footer-links col-xl-12"> 
+</div>
+                </div>
+                <hr/>
+                <p class="theme-p text-center">Copyright © 2020 Confer Global Private Limited. All Rights Reserved</p>
+            </div>
+        </div>
+        <!-- /.container -->
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script>
+	function showSubscription() {
+    	$('#subscription-list').show();
+        $('#video-list').hide();
+    }
+    function showVideos() {
+    	$('#subscription-list').hide();
+        $('#video-list').show();
+    }
+</script>
+    </body>
+</html>

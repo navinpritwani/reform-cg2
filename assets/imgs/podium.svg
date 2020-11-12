@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="95px" viewBox="0 0 62 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>podium</title>
+    <defs>
+        <linearGradient x1="49.983761%" y1="100%" x2="49.983761%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#04092E" offset="0%"></stop>
+            <stop stop-color="#14204D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="49.8498498%" x2="100%" y2="49.8498498%" id="linearGradient-2">
+            <stop stop-color="#12306F" offset="0%"></stop>
+            <stop stop-color="#0E4B80" offset="59%"></stop>
+            <stop stop-color="#0C5989" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#04092E" offset="0%"></stop>
+            <stop stop-color="#14204D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0200401%" y1="100%" x2="50.0200401%" y2="0%" id="linearGradient-4">
+            <stop stop-color="#04092E" offset="0%"></stop>
+            <stop stop-color="#14325E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-5">
+            <stop stop-color="#123F6F" offset="0%"></stop>
+            <stop stop-color="#0F4B7B" offset="40%"></stop>
+            <stop stop-color="#0C5989" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.983761%" y1="100%" x2="49.983761%" y2="0%" id="linearGradient-6">
+            <stop stop-color="#120D4A" offset="0%"></stop>
+            <stop stop-color="#423E6F" offset="17%"></stop>
+            <stop stop-color="#9290AC" offset="47%"></stop>
+            <stop stop-color="#CDCCD9" offset="72%"></stop>
+            <stop stop-color="#F1F1F4" offset="90%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-7">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#002835" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Event-Live---Audi-Copy-4" transform="translate(-290.000000, -492.000000)" fill-rule="nonzero">
+            <g id="podium" transform="translate(290.000000, 492.000000)">
+                <polygon id="Path" fill="url(#linearGradient-1)" points="6 95 8.68333875 5 53.6375447 5 57 95"></polygon>
+                <rect id="Rectangle" fill="url(#linearGradient-2)" x="0" y="0" width="62" height="5"></rect>
+                <polygon id="Path" fill="url(#linearGradient-3)" points="0 5 8.66666667 9 54.0666667 9 62 5"></polygon>
+                <polygon id="Path" fill="url(#linearGradient-4)" points="12.4476954 25 50.8116232 25 53 88 11 88"></polygon>
+                <polygon id="Path" fill="url(#linearGradient-5)" points="15.0131637 22 13 25 50 25 47.9056604 22"></polygon>
+                <polygon id="Path" fill="url(#linearGradient-6)" opacity="0.5" style="mix-blend-mode: multiply;" points="12.2611237 36 6 95 57 95 50.6891848 37.4574106 52.411822 88.5672913 11.0850926 88.5672913"></polygon>
+                <polygon id="Path" fill="url(#linearGradient-7)" opacity="0.5" style="mix-blend-mode: screen;" points="20 25 50.7909372 87.7023622 53 88 49.2276004 25"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

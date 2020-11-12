@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1367 204" style="enable-background:new 0 0 1367 204;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Path_1_);}
+	.st1{fill:#031D2E;}
+</style>
+<title>stage</title>
+<g id="UI">
+	<g id="stage">
+		
+			<linearGradient id="Path_1_" gradientUnits="userSpaceOnUse" x1="1115.6836" y1="0.7459" x2="1115.6836" y2="-0.9393" gradientTransform="matrix(1367 0 0 61 -1524456 60)">
+			<stop  offset="0" style="stop-color:#F2F2F2"/>
+			<stop  offset="1" style="stop-color:#9EA8B1"/>
+		</linearGradient>
+		<polygon id="Path" class="st0" points="166.9,2.7 0,90 0,105.5 1367,105.5 1367,94.2 1200.1,2.7 		"/>
+		<rect id="Rectangle" y="105.5" class="st1" width="1367" height="140"/>
+	</g>
+</g>
+</svg>

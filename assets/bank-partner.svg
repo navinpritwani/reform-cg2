@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1366px" height="267px" viewBox="0 0 1366 267" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 14</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1366" height="159"></rect>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(0.000000, -1879.000000)">
+            <g id="Group-14" transform="translate(0.000000, 1879.000000)">
+                <rect id="Rectangle" fill="#EDEDED" fill-rule="nonzero" x="0" y="91" width="1366" height="176"></rect>
+                <g id="Clipped">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Rectangle"></g>
+                    <path d="M1225.13125,138.422 C1516.35486,169.787 1672.40139,288.21 1672.40139,211.094 C1672.40139,94.5101 1228.79289,0 681.577083,0 C490.931862,0 312.863328,11.832 161.746732,31.7113 C-120.892897,68.8925 -309.247222,135.126 -309.247222,211.094 C-309.247222,286.148 -181.659028,174.407 121.896528,138.422 L148.721353,138.422 L1200.031,138.422 L1225.13125,138.422 Z" id="Path" fill="#EDEDED" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

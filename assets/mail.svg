@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 19</title>
+    <defs>
+        <rect id="path-1" x="0" y="0.77783" width="42.6667" height="32" rx="8"></rect>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-81.000000, -2361.000000)">
+            <g id="Newslatter" transform="translate(0.000000, 2271.000000)">
+                <g id="Group-19" transform="translate(81.000000, 90.000000)">
+                    <circle id="Oval" fill="#FFFFFF" cx="45" cy="45" r="45"></circle>
+                    <g id="letter" transform="translate(20.000000, 27.000000)">
+                        <rect id="Rectangle" fill="#8585DE" fill-rule="nonzero" x="0" y="3.77783" width="42.6667" height="32" rx="8"></rect>
+                        <g id="Clipped" transform="translate(0.000000, 3.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Rectangle"></g>
+                            <path d="M12.2903,15.4905 L-3.39908,4.00362 C-3.50324,3.92735 -3.6014,3.84321 -3.69269,3.75192 L-5.48584,1.95876 C-6.41363,1.03098 -5.75653,-0.55539 -4.44444,-0.55539 L46.3248,-3.058103 C50.1188,-3.245131 51.8947,1.56641 48.8889,3.88905 L30.6818,15.9292 C27.2771,18.1807 25.5748,19.3065 23.7409,19.7037 C22.1884,20.04 20.578,20.0016 19.0433,19.5916 C17.2305,19.1074 15.5837,17.9018 12.2903,15.4905 Z" id="Path" fill="#D8D8FE" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                        </g>
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#1781F1" fill-rule="nonzero" cx="43" cy="7" r="7"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

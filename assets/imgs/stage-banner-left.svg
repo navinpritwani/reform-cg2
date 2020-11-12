@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="274px" height="515px" viewBox="0 0 274 515" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 12 Copy</title>
+    <defs>
+        <filter x="-9.6%" y="-4.8%" width="119.2%" height="109.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M0,0.383668067 L0,10.3199062 L230.048889,10.3199062 L239.657679,0.383668067 L0,0.383668067 Z M0,19.8319216 L0,29.7587325 L211.246173,29.7587325 L220.854963,19.8319216 L0,19.8319216 Z M0,39.2801751 L0,49.206986 L192.450148,49.206986 L202.052247,39.2801751 L0,39.2801751 Z M0,58.7284286 L0,68.6646667 L173.654123,68.6646667 L183.249531,58.7284286 L0,58.7284286 Z M0,78.1766821 L0,88.103493 L154.851407,88.103493 L164.446815,78.1766821 L0,78.1766821 Z M0,97.6249356 L0,107.551746 L136.042,107.551746 L145.644099,97.6249356 L0,97.6249356 Z M0,117.063762 L0,127 L117.245975,127 L126.841383,117.063762 L0,117.063762 Z" id="path-2"></path>
+        <linearGradient x1="99.9980456%" y1="50.0011153%" x2="0%" y2="50.0011153%" id="linearGradient-4">
+            <stop stop-color="#2D6087" offset="0%"></stop>
+            <stop stop-color="#97DDDD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Event-Live---Audi-Copy-4" transform="translate(-67.000000, -116.000000)">
+            <g id="Group-12-Copy" filter="url(#filter-1)" transform="translate(204.000000, 373.500000) scale(-1, 1) translate(-204.000000, -373.500000) translate(84.000000, 133.000000)">
+                <polygon id="Fill-1" fill="#FFFFFF" points="0 354 240 354 240 0 0 0"></polygon>
+                <g id="Group-8" transform="translate(0.000000, 354.000000)" fill="#151515">
+                    <polygon id="Fill-6" points="0 127 239.650988 127 239.650988 0.383668067 0 0.383668067"></polygon>
+                </g>
+                <g id="Group-11" transform="translate(0.000000, 354.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="Clip-10"></g>
+                    <path d="M0,0.383668067 L0,10.3199062 L230.048889,10.3199062 L239.657679,0.383668067 L0,0.383668067 Z M0,19.8319216 L0,29.7587325 L211.246173,29.7587325 L220.854963,19.8319216 L0,19.8319216 Z M0,39.2801751 L0,49.206986 L192.450148,49.206986 L202.052247,39.2801751 L0,39.2801751 Z M0,58.7284286 L0,68.6646667 L173.654123,68.6646667 L183.249531,58.7284286 L0,58.7284286 Z M0,78.1766821 L0,88.103493 L154.851407,88.103493 L164.446815,78.1766821 L0,78.1766821 Z M0,97.6249356 L0,107.551746 L136.042,107.551746 L145.644099,97.6249356 L0,97.6249356 Z M0,117.063762 L0,127 L117.245975,127 L126.841383,117.063762 L0,117.063762 Z" id="Fill-9" fill="url(#linearGradient-4)" mask="url(#mask-3)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

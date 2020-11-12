@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Starter Template for Bootstrap</title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/font/stylesheet.css" rel="stylesheet">
+        <link href="starter-template.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body class="pt-4 live-event-bg">
+        <div class="event-tabs align-middle">
+            <ul>
+                <li>
+                    <button onclick="openCity(event, 'reception')" onmouseover="showLabel(this)" onmouseout="hideLabel(this)" id="defaultOpen" class="tablinks active">
+                        <img src="assets/imgs/reception-active.svg"/>
+                        <div class="label">
+                            <span>Reception</span>
+                        </div>
+                    </button>
+                </li>
+                <li>
+                    <button class="tablinks" onclick="openCity(event, 'speaker')" onmouseover="showLabel(this)" onmouseout="hideLabel(this)">
+                        <img src="assets/imgs/speaker.svg"/>
+                        <div class="label">
+                            <span>Speakers</span>
+                        </div>
+                    </button>
+                </li>
+                <li>
+                    <button class="tablinks" onclick="openCity(event, 'audi')" onmouseover="showLabel(this)" onmouseout="hideLabel(this)">
+                        <img src="assets/imgs/audi.svg"/>
+                        <div class="label">
+                            <span>Audi</span>
+                        </div>
+                    </button>
+                </li>
+                <li>
+                    <button class="tablinks" onclick="openCity(event, 'agenda')" onmouseover="showLabel(this)" onmouseout="hideLabel(this)">
+                        <img src="assets/imgs/agenda.svg"/>
+                        <div class="label">
+                            <span>Agenda</span>
+                        </div>
+                    </button>
+                </li>
+                <li>
+                    <button class="tablinks" onclick="openCity(event, 'attendee')" onmouseover="showLabel(this)" onmouseout="hideLabel(this)">
+                        <img src="assets/imgs/attendee.svg"/>
+                        <div class="label">
+                            <span>Attendees</span>
+                        </div>                         
+                    </button>
+                </li>
+                <li>
+                    <button class="tablinks" onclick="openCity(event, 'expo')" onmouseover="showLabel(this)" onmouseout="hideLabel(this)">
+                        <img src="assets/imgs/expo.svg"/>
+                        <div class="label">
+                            <span>Expo</span>
+                        </div>
+                    </button>
+                </li>
+                <li>
+                    <button class="tablinks" onclick="openCity(event, 'networking')" onmouseover="showLabel(this)" onmouseout="hideLabel(this)">
+                        <img src="assets/imgs/networking.svg"/>
+                        <div class="label">
+                            <span>Networking</span>
+                        </div>
+                    </button>
+                </li>
+                <li>
+                    <button class="tablinks" onclick="openCity(event, 'sponsors')" onmouseover="showLabel(this)" onmouseout="hideLabel(this)">
+                        <img src="assets/imgs/sponsors.svg"/>
+                        <div class="label">
+                            <span>Sponsors</span>
+                        </div>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="row live-event pl-5 pr-5">
+            <div class="col-xl-3 col-lg-3">
+                <div class="content">
+                    <h3>Confer Global 2020</h3>
+                    <p><img src="assets/date-dark-icon.svg"/><span>22nd July 2020, 2PM - 4PM</span></p>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6">
+                <div class="theme-card live-card">
+                    <h3>Stage is live</h3>
+                    <span class="feed-icon"><img src="assets/imgs/rss_feed%20-%20material.svg"/></span>
+                    <p><marquee width="55%" direction="left" scrollamount="3">
+                            The future is changing and we are a part of it
+</marquee></p>
+                    <a href="">Join Now</a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3">
+                <ul class="sm-logo"> 
+                    <li>
+                        <a href="" data-toggle="modal" data-target="#help-modal"><img src="assets/imgs/help.svg"/></a>
+                    </li>
+                    <li>
+                        <a onclick="openNotification()"><img src="assets/imgs/notification.svg"/></a>
+                    </li>
+                    <li>
+                        <a onclick="openChat()"><img src="assets/imgs/chat.svg"/></a>
+                    </li>
+                    <li>
+                        <a onclick="showAlert()"><img src="assets/imgs/logout.svg"/></a>
+                    </li>                     
+                </ul>
+            </div>
+        </div>
+        <div class="alert alert-secondary alert-dismissible exit-promt theme-modal">
+            <strong>Are you sure you want to exit ?</strong>
+            <br>
+            <a class="btn mt-4 mr-4 pr-4 pl-4 theme-btn text-body bg-light" onclick="closeAlert()">Cancel</a>
+            <a class="btn theme-btn mt-4" href="single-event.html">Exit</a> 
+        </div>
+        <div class="floating-icon-div theme-card d-none" id="float-icon">
+            <div class="minSection left-border">
+                <img src="assets/imgs/notification-white.svg">
+            </div>
+            <div class="minSection">
+                <img src="assets/imgs/chat-white.svg">
+            </div>
+        </div>
+        <div class="break"></div>
+        <div class="tabcontent">
+            <div class="stall-back">
+                <img src="assets/imgs/stall-back.png" class="stall-b"/>
+                <img src="assets/imgs/stall-floor.svg"/>
+            </div>
+            <div class="stall-table text-center">
+                <img src="assets/stall-table.svg"/>
+                <img src="assets/imgs/logo-stall.png" class="logo-stall"/>
+            </div>
+            <div class="stall-standee">
+                <img src="assets/stall-standee_1.svg"/>
+            </div>
+            <div class="stall-video">
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/Y9NMEj9-V5g">
+</iframe>
+            </div>
+            <div class="stall-info">
+                <h3>Flooop Pvt. Ltd</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <ul class="sm-logo"> 
+                    <li>
+                        <a href=""><img src="assets/imgs/fb-link.svg"/></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/imgs/twitter-link.svg"/></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/imgs/linkedin-link.svg"/></a>
+                    </li>
+                    <li>
+                        <a href=""></a>
+                    </li>                     
+                </ul>
+                <a href=""><img src="assets/imgs/download.svg"/>Download Brochure</a>
+                <a href=""><img src="assets/imgs/chat.svg"/>Send Message</a>
+                <a href=""><img src="assets/imgs/contact.svg"/>Get Contact</a>
+            </div>
+            <div class="stall-backbutton">
+                <a href=""><img src="assets/imgs/back-icon.svg"/>Back</a>
+            </div>
+        </div>
+        <div class="tabcontent" id="single-stall">
+            <div class="stand">
+                <img src="assets/imgs/stand_background_3.png"/>
+                <div class="info-video">
+                    <div class="display">
+                        <iframe width="420" height="315" src="https://www.youtube.com/embed/Y9NMEj9-V5g">
+</iframe>
+                    </div>
+                </div>
+                <div class="logo_visit">
+                    <div class="display_logo">
+                        <a href=""><img src="assets/imgs/logo-stall.png" class="items_img" title=""></a>
+                    </div>
+                </div>
+                <div id="leaflet" class="leaflet"> 
+                    <div id="leaflet0" class="leaflet0">
+                        <img src="https://s3.eu-west-1.amazonaws.com/expopolis-scve/Fair1/CEMR_Sustainability_best_practices_2017_EN.jpg">
+                    </div>
+                    <div id="leaflet1" class="leaflet1">
+                        <img src="https://s3.eu-west-1.amazonaws.com/expopolis-scve/Fair1/Europe_2030_Synthesis_EN.jpg">
+                    </div>
+                    <div id="leaflet0" class="leaflet0 leaflet2">
+                        <img src="https://s3.eu-west-1.amazonaws.com/expopolis-scve/Fair1/CEMR_Sustainability_best_practices_2017_EN.jpg">
+                    </div>
+                    <div id="leaflet1" class="leaflet1 leaflet3">
+                        <img src="https://s3.eu-west-1.amazonaws.com/expopolis-scve/Fair1/Europe_2030_Synthesis_EN.jpg">
+                    </div>
+                    <div id="leaflet0" class="leaflet0 leaflet4">
+                        <img src="https://s3.eu-west-1.amazonaws.com/expopolis-scve/Fair1/CEMR_Sustainability_best_practices_2017_EN.jpg">
+                    </div>
+                    <div id="leaflet1" class="leaflet1 leaflet5">
+                        <img src="https://s3.eu-west-1.amazonaws.com/expopolis-scve/Fair1/Europe_2030_Synthesis_EN.jpg">
+                    </div>
+                </div>
+                <div id="board_33" class="infopic">
+                    <div id="display_483" class="display_infopic">
+                        <a href="javascript:showConnexion();"><img id="33" name="483" src="assets/imgs/bg2.jpg" class="items_img" title="Website"></a>
+                    </div>
+                </div>
+                <h3 class="firm-name">Flooop Pvt. Ltd</h3>
+                <div class="firm-info">
+                    <h3>Flooop Pvt. Ltd</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <ul class="sm-logo"> 
+                        <li>
+                            <a href=""><img src="assets/imgs/fb-link.svg"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="assets/imgs/twitter-link.svg"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="assets/imgs/linkedin-link.svg"/></a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>                         
+                    </ul>
+                    <a href=""><img src="assets/imgs/download.svg"/>Download Brochure</a>
+                    <a href=""><img src="assets/imgs/chat.svg"/>Send Message</a>
+                    <a href=""><img src="assets/imgs/contact.svg"/>Get Contact</a>
+                </div>
+                <div class="contact-info">
+                    <a data-toggle="modal" data-target="#atendee-modal" class="cursor-pointer"><img src="assets/imgs/info-icon.svg"/></a>
+                </div>
+                <div class="stall-expo-info">
+                    <a data-toggle="modal" data-target="#atendee-modal" class="cursor-pointer"><img src="assets/imgs/info-icon.svg"/></a>
+                </div>
+            </div>
+            <div class="stall-backbutton">
+                <a href=""><img src="assets/imgs/back-icon.svg"/>Back</a>
+            </div>
+        </div>
+        <div class="tabcontent" id="audi">
+            <div class="stage">
+                <img src="assets/imgs/stage-1.png"/>
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/qYvXk_bqlBk" onmouseover="showDetails()" onmouseout="hideDetails(this)">
+</iframe>
+                <img src="https://www.e-xhibit.co/admin/uploads/events/Audi_20486879925fac4f8ef09a0656632147_img.png" class="left-banner"/>
+                <img src="https://www.e-xhibit.co/admin/uploads/events/Audi_20486879925fac4f8ef09a0656632147_img.png" class="right-banner"/>
+                <div class="podium d-none">
+                    <img src="assets/imgs/podium.svg"/>
+                </div>
+            </div>
+            <div class="screen d-none">
+                <div class="stage-right-banner stage-left-banner">
+                    <img src="assets/imgs/stage-banner-right.svg"/>
+                    <div class="inside-banner">
+                        <img src="http://pinegrow.com/placeholders/img12.jpg"/>
+                    </div>
+                </div>
+                <div class="stage-left-banner">
+                    <img src="assets/imgs/stage-banner-left.svg"/>
+                    <div class="inside-banner">
+                        <img src="http://pinegrow.com/placeholders/img12.jpg"/>
+                    </div>
+                </div>
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/qYvXk_bqlBk" onmouseover="showDetails()" onmouseout="hideDetails(this)">
+</iframe>
+                <div class="speaker-details">
+                    <h3 class="hash-tag"> 
+    #TredingTags</h3>
+                    <h3> 
+    Speaker Name</h3>
+                    <p>Depcription</p>
+                </div>
+            </div>
+            <div class="chairs">
+                <img src="assets/imgs/chairs2_1.png"/>
+            </div>
+        </div>
+        <div class="container live-event"> 
+            <div class="row reception tabcontent pt-5" id="reception">
+                <div class="event-nav col-xl-6 col-lg-6">
+                    <h3 class="section-title mt-4">About Event</h3>
+                    <p>Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt nostrud.</p>
+                    <div class="row">
+                        <div class="w-100 col-xl-6">
+                            <div class="registration-card theme-card organiser-card">
+                                <h3>Event hosted by</h3>
+                                <img src="assets/imgs/logo-2.png">
+                                <h4>Confer Global</h4>
+                                <p>Description about the company</p>
+                                <ul class="sm-logo"> 
+                                    <li>
+                                        <a href=""><img src="assets/imgs/fb-link.svg"/></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/imgs/twitter-link.svg"/></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/imgs/linkedin-link.svg"/></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/imgs/web-icon.svg"/></a>
+                                    </li>                                     
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-100 col-xl-6">
+                            <div class="registration-card theme-card organiser-card">
+                                <h3>Prime Sponsor</h3>
+                                <img src="assets/imgs/logo-2.png">
+                                <h4>Confer Global</h4>
+                                <p>Description about the company</p>
+                                <ul class="sm-logo"> 
+                                    <li>
+                                        <a href=""><img src="assets/imgs/fb-link.svg"/></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/imgs/twitter-link.svg"/></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/imgs/linkedin-link.svg"/></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/imgs/web-icon.svg"/></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="event-banner">
+                        <svg width="567px" height="354px" viewbox="0 0 567 354" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>Group 3</title>
+                            <defs>
+                                <path d="M567,25.2772421 L567,328.722758 C567,328.722758 565.654335,354 534.387408,354 C478.027782,354 421.707734,347.911321 365.321723,346.198057 C301.363046,344.234392 237.338406,344.656119 173.406115,347.463237 C126.518917,349.519154 79.539369,354 32.5993997,354 C1.33247243,354 0,328.722758 0,328.722758 L0,25.2772421 C0,25.2772421 1.33247243,0 32.5993997,0 C85.6608265,0 138.682675,5.42973084 191.69133,7.38021667 C255.623621,9.7128923 319.648262,9.63381855 383.593746,7.10345855 C433.845107,5.12661479 484.083275,0 534.387408,0 C565.654335,0 567,25.2772421 567,25.2772421" id="path-1"></path>
+                            </defs>
+                            <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Asset-1@2x">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#000000" xlink:href="#path-1"></use>
+                                    <image mask="url(#mask-2)" x="-48" y="-29" width="623" height="443" href="https://imgsv.imaging.nikon.com/lineup/dslr/df/img/sample/img_01.jpg"></image>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="desk">
+                        <div class="contact-info">
+                            <a data-toggle="modal" data-target="#atendee-modal" class="cursor-pointer"><img src="assets/imgs/info-icon.svg"/></a>
+                        </div>
+                        <img src="assets/imgs/reception-desk.svg"/>
+                        <img src="assets/partner-logo.png" class="desklogo">
+                    </div>
+                </div>
+            </div>
+            <div class="row tabcontent" id="attendee">
+                <div class="col-xl-2">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/speaker.png"/>
+                        <h3><span>Samuel johnson</span><p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/speaker.png"/>
+                        <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/speaker.png"/>
+                        <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/speaker.png"/>
+                        <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/speaker.png"/>
+                        <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/speaker.png"/>
+                        <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/speaker.png"/>
+                        <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/speaker.png"/>
+                        <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/speaker.png"/>
+                        <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/speaker.png"/>
+                        <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/speaker.png"/>
+                        <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/speaker.png"/>
+                        <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row tabcontent" id="expo">
+                <div class="col-xl-12">
+                    <div class="row">
+                        <div class="text-center col-xl-6 prime-stall d-none">
+                            <div class="stall">
+                                <img src="assets/imgs/Asset%201@2x.png" class="premium-label"/>
+                                <div class="back-card theme-card">
+                                    <img src="assets/imgs/logo-stall.png"/>
+                                </div>
+                                <div class="front-card">
+                                    <h3>Floop Pvt. Ltd</h3>
+                                    <a onclick="openCity(event, 'single-stall')">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center col-xl-3">
+                            <div class="stall">
+                                <div class="back-card theme-card">
+                                    <img src="assets/imgs/logo-stall.png"/>
+                                </div>
+                                <div class="front-card">
+                                    <h3>Floop Pvt. Ltd</h3>
+                                    <a onclick="openCity(event, 'single-stall')">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center col-xl-3">
+                            <div class="stall">
+                                <div class="back-card theme-card">
+                                    <img src="assets/imgs/logo-sponsor.png"/>
+                                </div>
+                                <div class="front-card">
+                                    <h3>Tech in Asia</h3>
+                                    <a href="">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center col-xl-3">
+                            <div class="stall">
+                                <div class="back-card theme-card">
+                                    <img src="assets/imgs/network-logo.png"/>
+                                </div>
+                                <div class="front-card">
+                                    <h3>Company</h3>
+                                    <a href="">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center col-xl-3">
+                            <div class="stall">
+                                <div class="back-card theme-card">
+                                    <img src="assets/imgs/sponsor-logo.png"/>
+                                </div>
+                                <div class="front-card">
+                                    <h3>Infocomm	</h3>
+                                    <a href="">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center col-xl-3">
+                            <div class="stall">
+                                <div class="back-card theme-card">
+                                    <img src="assets/imgs/sponsor-logo.png"/>
+                                </div>
+                                <div class="front-card">
+                                    <h3>Infocomm	</h3>
+                                    <a href="">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center col-xl-3">
+                            <div class="stall">
+                                <div class="back-card theme-card">
+                                    <img src="assets/imgs/sponsor-logo.png"/>
+                                </div>
+                                <div class="front-card">
+                                    <h3>Infocomm	</h3>
+                                    <a href="">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center col-xl-3">
+                            <div class="stall">
+                                <div class="back-card theme-card">
+                                    <img src="assets/imgs/sponsor-logo.png"/>
+                                </div>
+                                <div class="front-card">
+                                    <h3>Infocomm	</h3>
+                                    <a href="">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center col-xl-3">
+                            <div class="stall">
+                                <div class="back-card theme-card">
+                                    <img src="assets/imgs/sponsor-logo.png"/>
+                                </div>
+                                <div class="front-card">
+                                    <h3>Infocomm	</h3>
+                                    <a href="">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row tabcontent" id="networking">
+                <div class="col-xl-3">
+                    <div class="theme-card networking-card">
+                        <div class="seat d-flex">
+                            <div class="join-button">
+                                <button type="button" class="btn" data-toggle="modal" data-target="#networking-modal">+</button>
+                            </div>
+                            <div class="join-button">
+                                <button type="button" class="btn" data-toggle="modal" data-target="#networking-modal">+</button>
+                            </div>
+                            <div class="join-button">
+                                <button type="button" class="btn" data-toggle="modal" data-target="#networking-modal">+</button>
+                            </div>
+                        </div>
+                        <div class="table float-left">
+                            <img src="http://www.e-xhibit.co/admin/uploads/sponsor/Spe_14965980715fa6eef8b64581465111530_img.png"/>
+                        </div>
+                        <div class="seat">
+                            <div class="join-button">
+                                <button type="button" class="btn">+</button>
+                            </div>
+                            <div class="join-button">
+                                <button type="button" class="btn">+</button>
+                            </div>
+                            <div class="join-button">
+                                <button type="button" class="btn">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row tabcontent" id="sponsors">
+                <div class="text-center col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/sponsor-logo.png"/>
+                        <h3><a href="" data-toggle="modal" data-target="#sponsor-modal">Infocomm - South Asia</a><p>Prime Sponsor</p></h3>
+                    </div>
+                </div>
+                <div class="text-center col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/sponsor-logo.png"/>
+                        <h3>Infocomm - South Asia<p>Prime Sponsor</p></h3>
+                    </div>
+                </div>
+                <div class="text-center col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/sponsor-logo.png"/>
+                        <h3>Infocomm - South Asia<p>Prime Sponsor</p></h3>
+                    </div>
+                </div>
+                <div class="text-center col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/sponsor-logo.png"/>
+                        <h3>Infocomm - South Asia<p>Prime Sponsor</p></h3>
+                    </div>
+                </div>
+                <div class="text-center col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/sponsor-logo.png"/>
+                        <h3>Infocomm - South Asia<p>Prime Sponsor</p></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row tabcontent" id="speaker">
+                <div class="row">
+                    <div class="col-sm-5 col-lg-4 col-xl-2">
+                        <div class="theme-card speaker-card">
+                            <img src="assets/imgs/speaker.png"/>
+                            <h3><a href="" data-toggle="modal" data-target="#speaker-modal">Andrew Chen</a></h3>
+                            <p>CEO - M&X  Ltd.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-lg-3 col-xl-2">
+                        <div class="theme-card speaker-card">
+                            <img src="assets/imgs/speaker.png"/>
+                            <h3>Andrew Chen</h3>
+                            <p>CEO - M&X  Ltd.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-lg-3 col-xl-2">
+                        <div class="theme-card speaker-card">
+                            <img src="assets/imgs/speaker.png"/>
+                            <h3>Andrew Chen</h3>
+                            <p>CEO - M&X  Ltd.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-lg-3 col-xl-2">
+                        <div class="theme-card speaker-card">
+                            <img src="assets/imgs/speaker.png"/>
+                            <h3>Andrew Chen</h3>
+                            <p>CEO - M&X  Ltd.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-lg-3 col-xl-2">
+                        <div class="theme-card speaker-card">
+                            <img src="assets/imgs/speaker.png"/>
+                            <h3>Andrew Chen</h3>
+                            <p>CEO - M&X  Ltd.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-lg-3 col-xl-2">
+                        <div class="theme-card speaker-card">
+                            <img src="assets/imgs/speaker.png"/>
+                            <h3>Andrew Chen</h3>
+                            <p>CEO - M&X  Ltd.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-lg-3 col-xl-2">
+                        <div class="theme-card speaker-card">
+                            <img src="assets/imgs/speaker.png"/>
+                            <h3>Andrew Chen</h3>
+                            <p>CEO - M&X  Ltd.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-lg-3 col-xl-2">
+                        <div class="theme-card speaker-card">
+                            <img src="assets/imgs/speaker.png"/>
+                            <h3>Andrew Chen</h3>
+                            <p>CEO - M&X  Ltd.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-lg-3 col-xl-2">
+                        <div class="theme-card speaker-card">
+                            <img src="assets/imgs/speaker.png"/>
+                            <h3>Andrew Chen</h3>
+                            <p>CEO - M&X  Ltd.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-lg-3 col-xl-2">
+                        <div class="theme-card speaker-card">
+                            <img src="assets/imgs/speaker.png"/>
+                            <h3>Andrew Chen</h3>
+                            <p>CEO - M&X  Ltd.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row tabcontent" id="agenda">
+                <div class="col-xl-2">
+                    <div class="theme-card date-card active">
+                        <h3>2020</h3>
+                        <div>
+                            <p>4th April</p>
+                            <p>Saturday</p>
+                        </div>
+                    </div>
+                    <div class="theme-card date-card">
+                        <h3>2020</h3>
+                        <div>
+                            <p>5th April</p>
+                            <p>Saturday</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-10">
+                    <div class="theme-card agenda-card">
+                        <p class="float-left">02:00 PM  to 02:15 PM</p>
+                        <h3 class="float-left">Fireside chat on Deep tech<br> <span> Despription</span></h3>
+                        <hr/>
+                        <p class="text-left">Speakers</p>
+                        <img src="assets/imgs/speaker.png" data-toggle="tooltip" title="A small tooltip" class="speaker-tooltip"/>
+                        <img src="assets/imgs/speaker.png" data-toggle="tooltip" title="A small tooltip" class="speaker-tooltip"/>
+                        <a class="btn theme-btn float-right" href="#">Join Session</a>
+                    </div>
+                    <div class="theme-card agenda-card">
+                        <p class="float-left">02:00 PM  to 02:15 PM</p>
+                        <h3 class="float-left">Fireside chat on Deep tech<br><span> Despription</span></h3>
+                        <hr/>
+                        <p class="text-left">Speakers</p>
+                        <img src="assets/imgs/speaker.png" data-toggle="tooltip" title="A small tooltip" class="speaker-tooltip"/>
+                        <img src="assets/imgs/speaker.png" data-toggle="tooltip" title="A small tooltip" class="speaker-tooltip"/>
+                        <a class="btn theme-btn float-right" href="#">Join Session</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chat-modal" id="chat-modal">
+            <div class="single-chat">
+                <div class="header">
+                    <a onclick="chatList()" class="float-left"><img src="assets/imgs/back-icon.svg" class="w-100"/></a>
+                    <h3 class="float-left">John Doe</h3>
+                    <hr class="float-left w-100"/>
+                </div>
+                <div class="chat-box bg-white">
+                    <!-- Sender Message-->
+                    <div class="media mb-3 mr-3">
+                        <div class="media-body">
+                            <div class="bg-light rounded py-2 px-3 mb-2">
+                                <p class="text-small mb-0 text-muted">Test which is a new approach all solutions</p>
+                            </div>
+                            <p class="small text-muted">12:00 PM | Aug 13</p>
+                        </div>
+                    </div>
+                    <!-- Reciever Message-->
+                    <div class="media ml-auto mb-3">
+                        <div class="media-body ml-3">
+                            <div class="bg-primary rounded py-2 px-3 mb-2">
+                                <p class="text-small mb-0 text-white">Test which is a new approach to have all solutions</p>
+                            </div>
+                            <p class="small text-muted text-right">12:00 PM | Aug 13</p>
+                        </div>
+                    </div>
+                    <!-- Sender Message-->
+                    <div class="media mb-3 mr-3">
+                        <div class="media-body">
+                            <div class="bg-light rounded py-2 px-3 mb-2">
+                                <p class="text-small mb-0 text-muted">Test, which is a new approach to have</p>
+                            </div>
+                            <p class="small text-muted">12:00 PM | Aug 13</p>
+                        </div>
+                    </div>
+                    <!-- Reciever Message-->
+                    <div class="media ml-auto mb-3">
+                        <div class="media-body ml-3">
+                            <div class="bg-primary rounded py-2 px-3 mb-2">
+                                <p class="text-small mb-0 text-white">Apollo University, Delhi, India Test</p>
+                            </div>
+                            <p class="small text-muted text-right">12:00 PM | Aug 13</p>
+                        </div>
+                    </div>
+                    <!-- Sender Message-->
+                    <div class="media mb-3 mr-3">
+                        <div class="media-body">
+                            <div class="bg-light rounded py-2 px-3 mb-2">
+                                <p class="text-small mb-0 text-muted">Test, which is a new approach</p>
+                            </div>
+                            <p class="small text-muted">12:00 PM | Aug 13</p>
+                        </div>
+                    </div>
+                    <!-- Reciever Message-->
+                    <div class="media ml-auto mb-3">
+                        <div class="media-body ml-3">
+                            <div class="bg-primary rounded py-2 px-3 mb-2">
+                                <p class="text-small mb-0 text-white">Apollo University, Delhi, India Test</p>
+                            </div>
+                            <p class="small text-muted text-right">12:00 PM | Aug 13</p>
+                        </div>
+                    </div>
+                </div>
+                <form action="#" class="bg-light">
+                    <div class="input-group">
+                        <input type="text" placeholder="Type a message" aria-describedby="button-addon2" class="form-control rounded-0 border-0 bg-light py-4">
+                        <div class="input-group-append">
+                            <button id="button-addon2" type="submit" class="btn btn-link">
+                                <img src="assets/imgs/send-icon.svg"/> 
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- Typing area -->
+            <div class="thread" id="chat-list">
+                <div class="header">
+                    <h3><a onclick="closeChat()"><img src="assets/imgs/close.svg" class="w-100"/></a>Chat Messages</h3>
+                    <hr/>
+                </div>
+                <div class="chat-list"> 
+                    <div onclick="singleChat()" class="avatar-img"></div>                     
+                    <div class="chat-title" onclick="singleChat()">
+                        <h3>Open Chat</h3>
+                        <img src="assets/imgs/arrow-right.svg"/>
+                    </div>
+                </div>
+                <div class="chat-list">
+                    <div class="avatar-img" onclick="singleChat()">
+                        <img src="assets/imgs/speaker.png"/>
+                    </div>
+                    <div class="chat-title" onclick="singleChat()">
+                        <h3>Sameual Johnson</h3>
+                        <img src="assets/imgs/arrow-right.svg"/>
+                    </div>
+                    <div class="avatar-img" onclick="singleChat()">
+                        <img src="assets/imgs/speaker.png"/>
+                    </div>
+                    <div class="chat-title" onclick="singleChat()">
+                        <h3>Sameual Johnson</h3>
+                        <img src="assets/imgs/arrow-right.svg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chat-modal" id="notification-modal">
+            <div class="header">
+                <h3><a onclick="closeNotification()"><img src="assets/imgs/close.svg" class="w-100"/></a>Notification</h3>
+                <hr/>
+            </div>
+            <div class="chat-list">
+                <div class="chat-title">
+                    <h3>Session is Live</h3>
+                </div>
+            </div>
+            <div class="chat-list">
+                <div class="chat-title">
+                    <h3>Sameual Johnson wants to connect with you</h3>
+                </div>
+            </div>
+        </div>
+        <div class="theme-modal p-4 modal" id="speaker-modal">
+            <a href="" data-dismiss="modal" class="close"><img src="assets/imgs/close.svg" class="w-100"/></a>
+            <div class="row">
+                <div class="speaker-card text-left ml-0 col-xl-7">
+                    <img src="assets/imgs/speaker.png" class="float-left mr-4"/>
+                    <h3 class="text-left pt-3">Andrew Chen</h3>
+                    <p class="text-left">CEO - M&X  Ltd.</p>
+                    <ul class="sm-logo text-left"> 
+                        <li>
+                            <a href=""><img src="assets/imgs/fb-link.svg"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="assets/imgs/twitter-link.svg"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="assets/imgs/linkedin-link.svg"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="assets/imgs/web-icon.svg"/></a>
+                        </li>                         
+                    </ul>
+                </div>
+                <div class="about-speaker col-xl-5 mt-4">
+                    <button type="button" class="btn theme-btn">Request Chat</button>
+                    <button type="button" class="btn theme-btn mt-4">Request Contact</button>
+                </div>
+            </div>
+            <hr/>
+            <div class="about-speaker">
+                <h4>About Speaker</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="about-speaker">
+                <h4>Sessions</h4>
+                <p><span class="time">4th April, 02:00 PM </span><span class="topic">Fireside chat on Deep tech</span><span class="topic theme-text"><a href="">Set Reminder</a></span></p>
+                <p><span class="time">4th April, 02:00 PM </span><span class="topic">Fireside chat on Deep tech</span><span class="topic theme-text"><a href="">Set Reminder</a></span></p>
+                <p><span class="time">4th April, 02:00 PM </span><span class="topic">Fireside chat on Deep tech</span><span class="topic theme-text"><a href="">Set Reminder</a></span></p>
+            </div>
+        </div>
+        <div class="theme-modal p-4 modal" id="atendee-modal">
+            <a href="" data-dismiss="modal" class="close"><img src="assets/imgs/close.svg" class="w-100"/></a>
+            <div class="row">
+                <div class="speaker-card text-left ml-0 col-xl-7 mt-4">
+                    <img src="assets/imgs/speaker.png" class="float-left mr-4"/>
+                    <h3 class="text-left pt-3">Samuel johnson</h3>
+                    <p class="text-left">CEO - M&X  Ltd.</p>
+                </div>
+                <div class="about-speaker col-xl-5 mt-4">
+                    <button type="button" class="btn theme-btn">Chat</button>
+                </div>
+            </div>
+        </div>
+        <div class="theme-modal p-4 modal" id="sponsor-modal">
+            <a href="" data-dismiss="modal" class="close"><img src="assets/imgs/close.svg" class="w-100"/></a>
+            <div class="row">
+                <div class="col-xl-7">
+                    <div class="video-frame">
+                        <iframe width="420" height="315" src="https://www.youtube.com/embed/AmvyrzqqTv8">
+</iframe>
+                    </div>
+                </div>
+                <div class="col-xl-5">
+                    <div class="about-speaker">
+                        <img src="assets/imgs/sponsor-logo.png">
+                        <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <ul class="sm-logo"> 
+                            <li>
+                                <a href=""><img src="assets/imgs/fb-link.svg"/></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="assets/imgs/twitter-link.svg"/></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="assets/imgs/linkedin-link.svg"/></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="assets/imgs/web-icon.svg"/></a>
+                            </li>                             
+                        </ul>
+                        <a class="btn theme-btn" href="#">Connect</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="theme-modal p-4 modal" id="help-modal">
+            <a href="" data-dismiss="modal" class="close"><img src="assets/imgs/close.svg" class="w-100"/></a>
+            <h3>FAQs</h3>
+            <hr/>
+            <div class="row">
+                <div class="accordion col-xl-12" id="accordionExample275">
+                    <div class="card z-depth-0 bordered">
+                        <div class="card-header" id="headingOne2">
+                            <h5 class="mb-0"> <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+                                    Collapsible Group Item #1
+</button> </h5>
+                        </div>
+                        <div id="collapseOne2" class="collapse" aria-labelledby="headingOne2" data-parent="#accordionExample275">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                                wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                                eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                                assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                                nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                labore sustainable.
+</div>
+                        </div>
+                    </div>
+                    <div class="card z-depth-0 bordered">
+                        <div class="card-header" id="headingTwo2">
+                            <h5 class="mb-0"> <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                                    Collapsible Group Item #2
+</button> </h5>
+                        </div>
+                        <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo2" data-parent="#accordionExample275">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                                wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                                eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                                assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                                nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                labore sustainable.
+</div>
+                        </div>
+                    </div>
+                    <div class="card z-depth-0 bordered">
+                        <div class="card-header" id="headingThree2">
+                            <h5 class="mb-0"> <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
+                                    Collapsible Group Item #3
+</button> </h5>
+                        </div>
+                        <div id="collapseThree2" class="collapse" aria-labelledby="headingThree2" data-parent="#accordionExample275">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                                wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                                eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                                assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                                nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                labore sustainable.
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Accordion wrapper-->
+            <!-- Accordion wrapper -->
+        </div>
+        <div class="theme-modal p-4 modal" id="networking-modal">
+            <a href="" data-dismiss="modal" class="close"><img src="assets/imgs/close.svg" class="w-100"/></a>
+            <h3>Networking</h3>
+            <hr/>
+            <div class="row">
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/qYvXk_bqlBk" onmouseover="showDetails()" onmouseout="hideDetails(this)" class="w-100">
+</iframe>
+            </div>
+            <!--Accordion wrapper-->
+            <!-- Accordion wrapper -->
+        </div>
+        <!-- /.container -->
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+   var temp = $(tablinks[i].childNodes[1]).attr('src');
+      temp = temp.replace("-active","");
+      tablinks[i].childNodes[1].src = temp;
+      
+  }
+  document.getElementById(cityName).style.display = "flex";
+  evt.currentTarget.className += " active";
+     evt.currentTarget.childNodes[1].setAttribute("src", "assets/imgs/" + cityName + "-active.svg");
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+    
+function openChat() {
+	document.getElementById("chat-modal").style.display="block";
+}
+    
+function closeChat() {
+	document.getElementById("chat-modal").style.display="none";
+}
+function openNotification() {
+document.getElementById("notification-modal").style.display="block";
+}
+    function closeNotification() {
+document.getElementById("notification-modal").style.display="none";
+}
+    
+function showLabel(x) {
+    x.children[1].classList.add("elementToFadeIn");
+    x.children[1].classList.remove("elementToFadeOut");
+}
+    
+function hideLabel(x) {
+     x.children[1].classList.add("elementToFadeOut");
+    x.children[1].classList.remove("elementToFadeIn");
+    
+}
+    function showAlert(){
+     $('.alert').show();
+    }
+    function closeAlert(){
+    $('.alert').hide();
+    }
+    
+    function singleChat() {
+     $('.single-chat').show();
+     $('.thread').hide();
+    }
+    function chatList() {
+     $('.single-chat').hide();
+     $('.thread').show();
+    }
+    
+window.onscroll = function() {
+     var temp3 = document.getElementById("float-icon");
+    console.log(temp3);
+   
+  if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
+    temp3.classList.remove("d-none");
+  } else {
+    temp3.classList.add("d-none");
+  }
+}
+
+function showDetails() {
+ $('.speaker-details').addClass('elementToFadeIn');
+     $('.speaker-details').removeClass('elementToFadeOut');
+}
+function hideDetails() {
+  $('.speaker-details').removeClass('elementToFadeIn');
+     $('.speaker-details').addClass('elementToFadeOut');
+}
+
+$('#example').click(function(){
+ $('#example').popover('show');
+});
+$(document).ready(function(){
+$(".speaker-tooltop").tooltip({
+        delay: {show: 0, hide: 2000}
+    });
+});
+
+</script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="26px" viewBox="0 0 23 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" fill="#1781F1">
+            <path d="M0,25.92252 L22.0520625,25.92252 L22.0520625,15.2607867 L0,15.2607867 L0,25.92252 Z M3.1988125,20.5842867 L18.87925,20.5842867 L18.87925,16.7839533 L3.1988125,16.7839533 L3.1988125,20.5842867 Z" id="Fill-1"></path>
+            <polygon id="Fill-2" points="0.00975 5.39855333 22.0914688 5.39855333 22.0914688 -0.000346666667 0.00975 -0.000346666667"></polygon>
+            <polygon id="Fill-3" points="2.24778125 14.4686533 3.2800625 14.4686533 3.2800625 6.15342 2.24778125 6.15342"></polygon>
+            <polygon id="Fill-4" points="18.7793125 14.4833867 19.8457187 14.4833867 19.8457187 6.16858667 18.7793125 6.16858667"></polygon>
+        </g>
+    </g>
+</svg>

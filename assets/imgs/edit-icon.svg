@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title></title>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M13.24,4.88 L14.76,3.36 C14.92,3.2 15,3.00333333 15,2.77 C15,2.53666667 14.92,2.34 14.76,2.18 L14.76,2.18 L12.82,0.24 C12.66,0.08 12.4633333,0 12.23,0 C11.9966667,0 11.8,0.08 11.64,0.24 L11.64,0.24 L10.12,1.76 L13.24,4.88 Z M3.12,15 L12.34,5.78 L9.22,2.66 L0,11.88 L0,15 L3.12,15 Z" id="" fill="#1781F1" fill-rule="nonzero"></path>
+    </g>
+</svg>
