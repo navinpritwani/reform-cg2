@@ -2007,7 +2007,7 @@ input::placeholder {
 }
 
 .stand {
-    transform: scale(0.9);
+    transform: scale(0.88);
     position: absolute;
     border: 0px;
     text-align: center;
