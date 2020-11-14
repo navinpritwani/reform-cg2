@@ -1052,7 +1052,7 @@ ul.sm-logo li {
 
 .stall .back-card {
     background-color: #fff;
-    border-radius: 0px;
+    border-radius: 10px;
     width: 100%;
     height: 200px;
     padding: 2em;
@@ -1341,11 +1341,11 @@ ul.sm-logo li {
 }
 
 .chat-list .avatar-img {
-    position: absolute;
     height: 42px;
     width: 42px;
     background-color: #0B0A2C;
     border-radius: 50%;
+    float: left;
 }
 
 .chat-list .avatar-img p {
@@ -1365,6 +1365,7 @@ ul.sm-logo li {
     color: #0B0A2C;
     text-align: left;
     display: inline;
+    margin-left: 12px;
 }
 
 .chat-list p {
@@ -1377,10 +1378,11 @@ ul.sm-logo li {
 }
 
 .chat-title {
-    margin-left: 55px;
     padding-top: 10px;
     position: relative;
-    width: 69%;
+    width: 94%;
+    float: left;
+    display: flex;
 }
 
 #chat-list1 .chat-title {
@@ -1745,7 +1747,7 @@ a:focus {
 
 .reception .event-banner {
     width: 100%;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .reception .event-banner iframe {
@@ -2223,6 +2225,9 @@ input::placeholder {
 
 #notification-modal .chat-title {
     font-size: 14px;
+    background-color: #e9f2fd;
+    padding: 1em;
+    margin-bottom: 1em;
 }
 
 .event-nav {

@@ -262,9 +262,9 @@
     left: 0;
     right: 0;
     margin: auto;
-    top: 1vh;
+    top: 1.5vh;
     width: 58%;
-    height: 80%;
+    height: 79%;
 }
 
 .right-banner {
@@ -273,4 +273,16 @@
     max-height: 320px;
     top: 16px;
     right: 17px;
+}
+
+#atendee-modal .speaker-card {
+    min-height: auto;
+    max-height: auto;
+}
+
+#atendee-modal .about-speaker {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
