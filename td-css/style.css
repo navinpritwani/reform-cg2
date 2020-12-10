@@ -13669,6 +13669,21 @@ article.post.category-more-tag a[target=_blank] {
     }
 }
 
+@media (max-width: 460px) {
+    .site-content .home-v1-slider .slider-1,
+    .site-content .home-v2-slider .slider-1,
+    .site-content .home-v3-slider .slider-1 {
+        height: 10em !important;
+        margin-top: 12px;
+    }
+    .banners .banner .banner-bg{
+        height: 10em !important;
+    }
+    .slick-slider{
+        padding: 12px;
+    }
+}
+
 @media (min-width: 768px) {
     @media (max-width: 991px) {
         .site-content .home-v1-slider .slider-1,
@@ -13958,7 +13973,7 @@ article.post.category-more-tag a[target=_blank] {
 
 @media (min-width: 1590px) {
     .site-content .home-v2-slider {
-        width: 100%;
+        width: 100vh;
     }
 }
 
@@ -24812,11 +24827,7 @@ article .return-to-shop .more-link .icon {
     display: block;
 }
 
-@media (max-width: 767px) {
-    .shop-archive-header {
-        display: none;
-    }
-}
+
 
 @media (max-width: 33.9em) {
     .post-author-info .media {
