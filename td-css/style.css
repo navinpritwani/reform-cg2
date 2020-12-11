@@ -12391,7 +12391,7 @@ article .wl-create-new.more-link:before {
 @media (min-width: 1590px) {
     .homev12-slider-with-banners .column-1 {
         flex: 0 0 66.6666666667%;
-        max-width: 66.6666666667%;
+        /* max-width: 66.6666666667%; */
     }
 }
 
@@ -13973,7 +13973,8 @@ article.post.category-more-tag a[target=_blank] {
 
 @media (min-width: 1300px) {
     .site-content .home-v2-slider {
-        width: 100vh;
+        width: 100%;
+        max-width: 100%;
     }
 }
 
