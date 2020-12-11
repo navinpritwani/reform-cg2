@@ -13971,7 +13971,7 @@ article.post.category-more-tag a[target=_blank] {
     }
 }
 
-@media (min-width: 1590px) {
+@media (min-width: 1300px) {
     .site-content .home-v2-slider {
         width: 100vh;
     }
