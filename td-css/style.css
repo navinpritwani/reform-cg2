@@ -4367,7 +4367,7 @@ article .full-width-banner .banner-bg .more-link .feature-icon {
 }
 
 .banners .banner .banner-bg {
-    height: 300px;
+    height: 300px !important;
 }
 
 @media (max-width: 767px) {
