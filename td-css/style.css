@@ -2212,8 +2212,8 @@ body.can-uppercase .section-categories-carousel.section-top-categories .readmore
 }
 
 .site-footer .footer-widgets-block {
-    margin-bottom: 3em;
     padding-top: 3.133em;
+    padding-bottom: 3.133em;
 }
 
 .site-footer .footer-widgets-block .footer-contact,
