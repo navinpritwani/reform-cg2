@@ -4370,9 +4370,6 @@ article .full-width-banner .banner-bg .more-link .feature-icon {
     margin-bottom: 4.063em;
 }
 
-.banners .banner .banner-bg {
-    height: 300px !important;
-}
 
 @media (max-width: 767px) {
     .banners .banner .banner-bg .caption {
