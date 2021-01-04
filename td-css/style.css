@@ -14276,11 +14276,11 @@ article .site-content .landing-v2-slider .slider-1 .more-link {
 .site-content .home-v12-slider .slider-1 img,
 .site-content .landing-v1-slider .slider-1 img,
 .site-content .landing-v2-slider .slider-1 img {
-    position: relative;
+    position: unset;
 }
 
 .slider-1 img{
-    position: relative;
+    position: unset !important;
     width: 100%;
     height: auto;
 }
