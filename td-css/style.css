@@ -2206,9 +2206,13 @@ body.can-uppercase .section-categories-carousel.section-top-categories .readmore
 .site-footer h4,
 .site-footer h5,
 .site-footer h6,
-.site-footer strong {
+.site-footer strong {   
     color: #1f1f1f;
     font-weight: 500;
+}
+
+#menu-footer-menu-1 .menu-item a{
+    font-size: 12px;
 }
 
 .site-footer .footer-widgets-block {
@@ -13673,11 +13677,11 @@ article.post.category-more-tag a[target=_blank] {
     .site-content .home-v1-slider .slider-1,
     .site-content .home-v2-slider .slider-1,
     .site-content .home-v3-slider .slider-1 {
-        height: 10em !important;
+        height: 7em !important;
         margin-top: 12px;
     }
     .banners .banner .banner-bg{
-        height: 10em !important;
+        height: 7em !important;
     }
     .slick-slider{
         padding: 12px;
@@ -14272,7 +14276,13 @@ article .site-content .landing-v2-slider .slider-1 .more-link {
 .site-content .home-v12-slider .slider-1 img,
 .site-content .landing-v1-slider .slider-1 img,
 .site-content .landing-v2-slider .slider-1 img {
-    position: absolute;
+    position: relative;
+}
+
+.slider-1 img{
+    position: relative;
+    width: 100%;
+    height: auto;
 }
 
 .site-content .home-v1-slider .slider-1 .caption,
