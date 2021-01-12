@@ -31588,9 +31588,9 @@ dl.variation dd {
 .products .product h3,
 .products .product .woocommerce-loop-product__title {
     line-height: 1.5em;
-    font-weight: 400;
+    font-weight: 500;
     color: #626060;
-    font-size: 1em;
+    font-size: 1.2em;
     overflow: hidden;
     max-height: 42px;
     text-align: center;
