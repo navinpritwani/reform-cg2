@@ -14256,6 +14256,7 @@ article .site-content .landing-v2-slider .slider-1 .more-link {
 .site-content .landing-v1-slider .slider-1,
 .site-content .landing-v2-slider .slider-1 {
     height: 26.5vw !important;
+    background-size: cover;
 }
 
 .site-content .home-v1-slider .slider-1 img,
@@ -18611,6 +18612,9 @@ article .widget_techmarket_poster_widget .poster-bg .caption .more-link:hover {
 
 .section-top-categories.section-categories-carousel.section-categories-carousel-v1 .custom-slick-nav a {
     background-color: #fff;
+}
+.section-top-categories.section-categories-carousel.section-categories-carousel-v1 .custom-slick-nav a i{
+    color: #000 !important;
 }
 
 @media (min-width: 768px) {
