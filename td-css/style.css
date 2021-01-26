@@ -31594,11 +31594,15 @@ dl.variation dd {
     line-height: 1.5em;
     font-weight: 500;
     color: #626060;
-    font-size: 1.2em;
-    overflow: hidden;
+    font-size: 1.1em;
     max-height: 42px;
     text-align: center;
     margin: auto;
+}
+
+.c32{
+    max-width: 100% !important;
+    padding: 2em !important;
 }
 
 .products .product .techmarket-product-rating {
